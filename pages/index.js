@@ -29,6 +29,7 @@ const addTodoPopup = new PopupWithForm({
 
     const todo = generateTodo(values);
     section.addItem(todo);
+    todoCounter.increaseTotal();
 
     addTodoForm.reset();
     newTodoValidator._toggleButtonState();
@@ -56,6 +57,8 @@ function handleCheck(completed) {
 }
 
 function handleDelete(completed) {
+  todoCounter.decreaseTotal();
+
   if (completed) {
     todoCounter.updateCompleted(false);
   }

@@ -1,14 +1,16 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+-This Todo app is used for any personal reminder or a checklist to get things done.
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+-A Todo app that has counter to be able to see how much things someone has to do. Say like when they go to delete a Todo, 
+the counter will go from 3 to 2 todos left.
+-They can even add todos which will increase the counter.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+-Javascript refactoring 
 
 ## Deployment
 
